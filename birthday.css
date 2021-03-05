@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+.section {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 6% 2%;
+	background-color: #FF7F50;
+}
+
+.section h1{
+	font-family: 'Pacifico', cursive;
+	font-weight: 400;
+	font-size: 42px;
+	text-align: center;
+	color: yellow;
+	margin: 0 0px;
+	padding: 20px 20px 20px 20px;
+	line-height: 1.5;
+	background-color: maroon;
+	border-radius: 10px;
+}
+.section h4{
+	font-family: sans-serif;
+	text-align: center;
+	color: blue;
+
+}
+.grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.grid:after {
+	clear: both;
+}
+
+.grid:after, .box:before {
+	content: '';
+	display: table;
+}
+
+.grid li {
+	width: 500px;
+	height: 300px;
+	display: inline-block;
+	margin: 20px;
+}
+
+
+.box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+.box:hover {
+	transform: scale(1.05); 
+}
+
+.img-1 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+	url(afrin.jpg);
+}
+
+.img-2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), 
+	url(jannat.jpg);
+}
+
+.img-3 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), 
+	url(nourin.jpg);
+}
+
+.img-4 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+	url(sajjad.jpg);
+}
+.img-5 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+	url(salman.jpg);
+}
+.img-6 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+	url(srijon.jpg);
+}
+.img-7 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), 
+	url(rajin.jpg);
+	max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover
+}
+
+.info {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+}
+
+.info h3 {
+	font-family: 'Pacifico', cursive;
+	font-weight: 400;
+	color: white;
+	font-size: 42px;
+	margin: 0 30px;
+	padding: 100px 0 0 0;
+	line-height: 1.5;
+	text-align: center;
+}
+
